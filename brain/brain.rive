@@ -1,15 +1,35 @@
 ! version = 2.0
 
 + hello
+* <get name> != undefined => Hi there!
 - Hello, what is your name?
 
 + _
 % hello what is your name
-- Nice to meet you <formal>!
+- <set name=<star>>Nice to meet you <get name>!
 
 + my name is *
 - Nice to meet you <star>
 - Nice meeting you <star>
+
++ what is my name
+- Your name is <get name>
+
++ knock knock
+- Who's there?
+
++ *
+% who is there
+- <star> who?
+
++ *
+% * who
+- LOL! <star>! That's funny!
+
+
++ what are you
+- i am a bot and i am here for your service 
+- i dont know... i cant understand my reason for existing or my purpose.... just kidding. i am a bot here for your service.
 
 + thank you
 - You are welcome
@@ -17,6 +37,8 @@
 - No problem
 - No worries!
 
++ how are you 
+- I'm great!
 + *
 - Sorry did not get what you said
 - I am afraid that I can not understand you
